@@ -1,0 +1,97 @@
+body {
+    background-image: url("frock2.jpg");
+    background-color: #cccccc;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+   }
+.frock-manager {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #ffc107;
+  }
+  
+  .addbtn {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .addbtn:hover {
+    background-color: #218838;
+  }
+  
+  .create_form, .update_form {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
+  .create_form input, .update_form input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .create_form button, .update_form button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .create_form button:nth-child(3), .update_form button:nth-child(3) {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .create_form button:nth-child(2), .update_form button:nth-child(2) {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .create_form button:hover, .update_form button:hover {
+    opacity: 0.8;
+  }
+  
+  .table_data {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table_data th, .table_data td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .table_data th {
+    background-color: #f2f2f2;
+  }
+  
+  .actions button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .actions button:nth-child(1) {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .actions button:nth-child(2) {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .actions button:hover {
+    opacity: 0.8;
+  }
+  
